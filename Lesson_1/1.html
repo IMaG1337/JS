@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Homework</title>
+  <script type="text/javascript"
+    src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=ktFXs7l87x7_PuDVmqqckx5NQ9YqLsQt8KFgIvik9Qgqa5ZY6gieSlOijIRfBNcFu5WDLlVNyADk9pHPsnO1_yemSJdJ70lbV_d9Fhu38_6jpb30v79-con4hK6YGiMP53Y7LgAoEkKYSRz-RMUtSto-zgJUkunBJHCIpdx76Ucv-byzrUYQZIxkDC7bd3XVutka5rbcbjPMlFKg9Rs9HB9fPTH4PcRpEmdXah5AI2IpztdAg8N7Cul79PxP6eh_TMflv54UrcXDLjdaKUyV8Hg9Wd0i2rdVLW5m6ZX3bOF_FhwBZ_RIllSKMng1i_MXHY9oTJZsvWjUmTJdY3kfcXcYFor7CVwBFCXO5K5HDx3bQJWeH-XZYfqDjEOELCFda-mghkUkYUh5hbtHnu4FefS5iMYerovHDvSNH_1fhqqKJxibT-x0luxGwftVFeRxpxaVZcPuO8Qy_kwiOZmtP4bpuZCV5q1eszzUUPkiT9mMq0aQP53-nuUvTlZ0d1RpgPZl6yt4p9IvO1pxIGX7kgpttOx2ocd1bPRyVb-TsKXY-LoQ0L6CEumy81rArDvTnqeXmTEtNxVxFywmoXuWLA5f2kaPGby2fkzVyWRY2JoxQaJDFgmTmB78VebDwTmObOcviV7OTOP6VVyeRz5VVnrNSz1VLkiG9i3hNFMzU78t5eqhz-1QgauqjiZmqDRuk8KBAncrBNTL8sPC4CpgeCpk6W6d_hbU2Ee3EoGLY0YChW87opFwuwjRgFquGYKSBH6vO2YqDDY4OcWBbvrgb6rRE8gqJ4Pg7oh6lqC-ynI5gzrOla2JQyGskLZ0wqap2cC5FCfjKHCNlN1w8v6VXwqGBmJ4dk5LRon_tvb-_c2yX1qQqNuGy7u3U6ZSFwMfPY-x4K4RUkcUtjVBeWPWRANfQRzKzUoSBl5rmDjSS1pNhcLTReialpbsZwC1NWuzxAi421sQ4WwIuaKjBKKnoBMJNlpWWOc-ZCUVeGjBBe54WqQYjPeOYZTx-0l7FtherSW0sczXVw5qsYkmjaRwEU9c5p2J6rupOARkdVcMgA-fpWjlOLSo4MzBLYvzneRWzFatddDZY8qd6LMqRGz7E12OO581sJ95bo_7GKqR0j-nKjz2-tytTiMfq5bZXvpGco-suWCr9V57q3rMLNO9z00aHMIrttVVrwt8t5k1h3k"
+    charset="UTF-8"></script>
+  <script type="text/javascript" nonce="664ec27473ca4ad3a4bcc536b9f"
+    src="//local.adguard.org?ts=1637146804715&amp;type=content-script&amp;dmn=s461man.storage.yandex.net&amp;app=chrome.exe&amp;css=1&amp;js=1&amp;gcss=1&amp;rel=1&amp;rji=1&amp;sbe=0"></script>
+  <script type="text/javascript" nonce="664ec27473ca4ad3a4bcc536b9f"
+    src="//local.adguard.org?ts=1637146804715&amp;name=AdGuard%20Popup%20Blocker&amp;name=AdGuard%20Extra&amp;type=user-script"></script>
+</head>
+
+<body>
+  <!--
+Обязательное задание.
+
+Необходимо пользователя попросить ввести температуру в градусах Цельсия,
+преобразовать введенное пользователем значение в соответствующую температуру
+в градусах по Фаренгейту и вывести в alert сообщение с текстом:
+"Цельсий: {C}, Фаренгейт: {F}"
+Где вместо {C} и {F} должны быть подставлены соответствующие значения, которые
+были получены ранее.
+Формула перевода градусов Цельсия в градусы Фаренгейта:
+градусы Фаренгейта = (9 / 5) * градусы Цельсия + 32
+
+Уточнение: пользователь всегда вводит корректное число.
+-->
+  <script>
+    "use strict";
+    let celsius = prompt('Введите температуру в градусах Цельсия: ');
+    let fahrenheit = (celsius * 9 / 5) + 32;
+    alert(`Цельсий: ${celsius}, Фаренгейт: ${fahrenheit}`);
+  </script>
+</body>
+
+</html>
